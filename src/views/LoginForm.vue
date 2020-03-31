@@ -18,7 +18,9 @@
     <p></p>
     </div>
     <div>
+      <router-link to="/student">
     <button  id="loginBtn">Login</button>
+      </router-link>
    </div>
     </div>
 

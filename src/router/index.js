@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import LoginForm from "../views/LoginForm.vue";
 import Search from "../views/Search.vue"
+import StudentMain from "../views/StudentMain.vue"
 
 
 Vue.use(VueRouter);
@@ -26,6 +27,11 @@ const routes = [
     name:"LoginForm",
     // component: ()=>import("../views/LoginForm.vue")
     component:LoginForm
+  },
+  {
+    path:"/student",
+    name:"studentPage",
+    component:StudentMain
   },
   {
     path:"/search",
