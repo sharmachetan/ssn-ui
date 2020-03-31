@@ -1,10 +1,17 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <!-- <router-link to="/">Home</router-link> | -->
+      <router-link to="/about" id="about">About</router-link>
+      <router-link to="/" id="home">Home</router-link>
+       <router-link to="/search" id="search">Search</router-link>
+
+      
+
+
     </div>
-    <router-view />
+    <router-view/>
+
   </div>
 </template>
 
@@ -29,4 +36,19 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+#about { 
+float:centre;
+padding-right: 10px;
+}
+
+#home {
+  float: centre;
+  padding-right: 10px;
+}
+
+#search {
+  float: cetre;
+  padding-right: 10px;
+}
+
 </style>
