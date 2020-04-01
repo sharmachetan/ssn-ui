@@ -1,19 +1,20 @@
 <template>
   <div id="app">
     <div id="nav">
-      <!-- <router-link to="/">Home</router-link> | -->
-      <router-link to="/about" id="about">About</router-link>
-      <router-link to="/" id="home">Home</router-link>
-       <router-link to="/search" id="search">Search</router-link>
-
-      
-
-
+    
     </div>
     <router-view/>
 
   </div>
 </template>
+
+<script>
+// import TopBar from "@/components/TopBar.vue";
+export default {
+  components:{
+  }
+}
+</script>
 
 <style>
 #app {
@@ -24,31 +25,5 @@
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-#about { 
-float:centre;
-padding-right: 10px;
-}
-
-#home {
-  float: centre;
-  padding-right: 10px;
-}
-
-#search {
-  float: cetre;
-  padding-right: 10px;
-}
 
 </style>
