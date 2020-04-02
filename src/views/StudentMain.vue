@@ -1,23 +1,27 @@
 <template>
 <div id="studentMain">
-<hr>
-    <p> This is  page</p>
+    <HeaderBar/>
     <StudentOptionBoard/>
+    <ProposalForm/>
 </div>
 </template>
 <script>
 
-
+import ProposalForm from "@/components/ProposalForm.vue"
 import StudentOptionBoard from "@/components/StudentOptionBoard.vue";
+import HeaderBar from "@/components/HeaderBar.vue";
 export default{
     name:"StudentMain",
     components:{
-        StudentOptionBoard
+        StudentOptionBoard,
+        ProposalForm,
+        HeaderBar
     }
 }
 </script>
 
-<style>
+<style scoped>
+
+</style>>
 
 
-</style>

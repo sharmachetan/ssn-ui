@@ -24,10 +24,16 @@ export default {
 
 
 <style scoped>
+body {
+    margin: 0;
+}
 #mainPanel{
     position: fixed;
+    left: 0;
+    top: 50px;
+    margin: 0;
     width: 150px;
-    height: 400px;
+    height: 100%;
     background-color: rgb(44, 41, 41);
     color:ivory;
 }
