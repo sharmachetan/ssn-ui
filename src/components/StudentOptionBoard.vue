@@ -27,13 +27,20 @@ export default {
 body {
     margin: 0;
 }
+
+#optionBoard{
+      left: 0;
+          top: 40px;
+        position: fixed;
+       width: 150px;
+    height: inherit;
+
+}
 #mainPanel{
-    position: fixed;
-    left: 0;
-    top: 50px;
+    /* position: fixed; */
     margin: 0;
-    width: 150px;
-    height: 100%;
+    width: inherit;
+    height: inherit;
     background-color: rgb(44, 41, 41);
     color:ivory;
 }
