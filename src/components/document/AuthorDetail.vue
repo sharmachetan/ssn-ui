@@ -1,7 +1,7 @@
 <template>
     <div id="AuthorDiv">
  
-<table cellspacing="0" cellpadding="0">
+<table>
     <tr>
         <td><h5>Author :</h5></td>
         <td>Chetan Sharma</td>
@@ -51,8 +51,13 @@ table tr td h5{
     height:inherit;
 }
 
-table tr {
-    
+table {
+    float: left;
+}
+#AuthorDiv {
+    position: relative;
+    width: fit-content;
+
 }
 
 

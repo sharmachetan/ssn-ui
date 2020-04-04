@@ -2,8 +2,10 @@
     <div id="mainParent">
         <DocToolBar/>
 <Title/>
+<div id="DetailAndQr">
 <AuthorDetail/>
 <QrCode/>
+</div>
 <!-- <TimeStamp/> -->
 <VideoDesc/>
 <Description/>
@@ -33,7 +35,10 @@ word-wrap:break-word;
 }
 
 
-
+#DetailAndQr {
+    display: inline-block;
+    width: 100%;
+}
 
 
 
