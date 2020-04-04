@@ -9,7 +9,7 @@
     <ProposalForm/>
     </div>
     <div id="right">
-        <DocumentInforBoard/>
+        <DocumentInfoBoard/>
     </div>
 </div>
 </template>
@@ -18,14 +18,14 @@
 import ProposalForm from "@/components/ProposalForm.vue"
 import StudentOptionBoard from "@/components/StudentOptionBoard.vue";
 import HeaderBar from "@/components/HeaderBar.vue";
-import DocumentInforBoard from "@/components/document/DocumentInfoBoard.vue";
+import DocumentInfoBoard from "@/components/document/DocumentInfoBoard.vue";
 export default{
     name:"StudentMain",
     components:{
         StudentOptionBoard,
         ProposalForm,
         HeaderBar,
-        DocumentInforBoard
+        DocumentInfoBoard
     }
 }
 </script>
