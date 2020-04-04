@@ -8,6 +8,9 @@
     <div id="centre">
     <ProposalForm/>
     </div>
+    <div id="right">
+        <DocumentInforBoard/>
+    </div>
 </div>
 </template>
 <script>
@@ -15,12 +18,14 @@
 import ProposalForm from "@/components/ProposalForm.vue"
 import StudentOptionBoard from "@/components/StudentOptionBoard.vue";
 import HeaderBar from "@/components/HeaderBar.vue";
+import DocumentInforBoard from "@/components/document/DocumentInfoBoard.vue";
 export default{
     name:"StudentMain",
     components:{
         StudentOptionBoard,
         ProposalForm,
-        HeaderBar
+        HeaderBar,
+        DocumentInforBoard
     }
 }
 </script>
@@ -49,6 +54,9 @@ top: 100px;
 left: 160px;
 width: 70%;
 z-index: -2;
+}
+#right {
+    height: 100%;
 }
 </style>
 

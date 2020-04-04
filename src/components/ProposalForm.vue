@@ -2,21 +2,22 @@
     <div id="mainParent">
 <Title/>
 <AuthorDetail/>
-<TimeStamp/>
-<Description/>
+<!-- <TimeStamp/> -->
 <VideoDesc/>
+<Description/>
+
     </div>
 </template>
 
 <script>
 import Title from "@/components/document/Title.vue";
 import AuthorDetail from "@/components/document/AuthorDetail.vue";
-import TimeStamp from "@/components/document/TimeStamp.vue";
+// import TimeStamp from "@/components/document/TimeStamp.vue";
 import Description from "@/components/document/Description.vue";
 import VideoDesc from "@/components/document/VideoDesc.vue";
 export default {
     name:"ProposalForm",
-    components:{Title,AuthorDetail,TimeStamp,Description,VideoDesc}
+    components:{Title,AuthorDetail,Description,VideoDesc}
 }
 </script>
 
