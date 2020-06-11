@@ -4,6 +4,7 @@
        
         <img id="menu" src="../assets/menu1.png"/>
          <img id="profile" src="../assets/profile.jpg"/>
+         <img id="logo" src="../assets/UL1.png"/>
     </div>
     </div>    
 </template>
@@ -32,6 +33,16 @@ body {
 }
 #header nav{
     position: inherit;
+}
+
+#logo {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    
 }
 #menu {
     display: inline-block;

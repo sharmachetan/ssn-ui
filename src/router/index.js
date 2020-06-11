@@ -32,6 +32,7 @@ const routes = [
     path:"/student",
     name:"studentPage",
     component:StudentMain
+  
   },
   {
     path:"/search",
